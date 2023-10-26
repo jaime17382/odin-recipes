@@ -1,11 +1,44 @@
 /* recipes-style.css */
 * {
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
     list-style-position: inside;
+    box-sizing: border-box;
 }
 
 .recipe-image {
     height: auto;
     width: 800px;
+}
+
+.index-list {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color:burlywood;
+    width: max-content;
+    padding: 5px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: tomato;
+}
+
+ul, ol {
+    text-wrap: balance;
+    padding: auto;
+    color: olivedrab;
+}
+
+.recipe-lists {
+    background-color:burlywood;
+    width: max-content;
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+body {
+    background-color: blanchedalmond;
 }
